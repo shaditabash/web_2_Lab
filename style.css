@@ -1,0 +1,318 @@
+.parent1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo img{
+
+    width: 60px;
+    height: 60px;
+}
+.logo{   position: absolute;
+    top: 30px;
+    left: 150px;
+    font-family: sans-serif;
+    display: flex;
+    align-items:center;}
+    .logo p{
+        font-size: 40px;
+    }
+.menue ul{margin-left: 475px;
+
+}
+
+.menue ul li{
+    font-family: sans-serif;
+    display: inline;
+    padding:0 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: auto;
+
+
+
+}
+.login{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 12px 8px rgba(255, 38, 0, 0.15);
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgb(241, 148, 8);
+    padding: 8px 40px;
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+.login a{
+    color: aliceblue;
+    text-decoration: none;
+text-transform: uppercase;
+font-family: sans-serif;
+
+
+
+}
+body{
+    padding: 50px 70px;
+    background-image: url(img/Bg-Shape.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+.parent2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.text{
+    width: 50%;
+    margin-left: 120PX;
+    margin-bottom: 100PX;
+    font-family: sans-serif;
+
+}.img{
+    width: 50%;
+}
+.text h3{
+
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgba(65, 62, 62, 0.9);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.text h1{
+ 
+    font-family:sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    color: rgba(65, 62, 62, 0.9);
+    text-transform: uppercase;
+
+}.text p{
+
+    color: rgba(1, 1, 1,0.5);
+}
+.parent3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.parent3 .text2{
+width: 50%;
+font-family:  sans-serif;
+}
+.parent3 .img2{
+    width: 50%;
+    
+    }
+    .parent3 .img2 img{
+        width: 550px;
+    } 
+    .parent3 .text2 h3{
+        color: rgb(29, 29, 240);
+        font-style: italic;
+        font-family:sans-serif;
+
+    }
+    .parent3 .text2 h1{
+
+font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(0, 0, 0,0.7);
+
+
+    }
+    .parent3 .text2 p{
+       font-size: 18px;
+    padding-right: 130px; 
+    padding-left: 0px; 
+padding-bottom: 8px;  
+padding-top: 8px; 
+
+       line-height: 1.5em;
+       color: rgba(1, 1, 1,0.5);
+
+
+    }
+
+.parent3 .see{
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right,rgb(55, 5, 161), rgb(41, 88, 197));  
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 40px;
+}
+.text .sign{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+  background-image: linear-gradient(to right,rgb(55, 5, 161), rgb(41, 88, 197));  
+  text-decoration: none;
+    color: aliceblue;
+    padding: 8px 40px;
+}
+.parent4{
+    margin: 100px 100px;
+}
+.parent4 h1{
+
+font-family: sans-serif;    
+font-size: 50px;
+    font-weight: 700;
+    color: rgba(0, 0, 0,0.7);
+}
+.parent4 h3{
+    font-family: sans-serif;    
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(29, 29, 240,0.6);
+}
+.about{
+
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    width: 200;
+    height: 200;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+.card1,.card2,.card3{
+   margin:0 40px;
+   position: relative;
+}
+.card1{
+  
+    background-color:#fff;
+    width: 325px;
+    height: 350px;
+    border-radius: 40px;
+  box-shadow: 0 5px 25px -8px rgba(1 1 1/15%);
+
+}
+.card2{
+    background-color:#fff;
+    width: 325px;
+    height: 350px;
+    border-radius: 40px;
+  box-shadow: 0 5px 25px -8px rgba(1 1 1/15%);
+}
+
+.card3{
+    background-color:#fff;
+    width: 325px;
+    height: 350px;
+    border-radius: 40px;
+  box-shadow: 0 5px 30px -8px rgba(1 1 1/15%);
+}
+.parg2,.parg1,.parg3{
+
+    font-size: 14px;
+}
+.about .parg2{
+
+    padding: 25px;
+    text-align: left;
+}
+.about .parg1{
+    padding: 25px;
+    text-align: left;
+}.about .parg3{
+   padding: 25px;
+    text-align: left;
+}
+
+
+.images{
+    width:70px;
+    margin-top: 15px;
+}
+.title{
+    margin-right: 30px;
+    font-size: 16px;
+    margin-top: 40px;
+    font-family: sans-serif;    
+
+}
+.title3{
+    margin-right: 110px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+
+.about .bt-see1{
+    font-size: 10px;
+    font-weight: 20;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,rgb(55, 5, 161), rgb(41, 88, 197));  
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px 15px;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: sans-serif;    
+
+position: absolute;
+bottom: 20px;
+right: 50px;
+
+}
+.about .bt-see2{
+    font-size: 10px;
+    font-weight: 20;
+    font-family: sans-serif;    
+
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,rgb(55, 5, 161), rgb(41, 88, 197));  
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px 15px;
+    text-align: right;
+    text-transform: uppercase;
+position: absolute;
+bottom: 20px;
+right: 50px;
+
+}
+.about .bt-see3{
+    font-size: 10px;
+    font-weight: 20;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,rgb(55, 5, 161), rgb(41, 88, 197));  
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px 15px;
+    text-align: right;
+    text-transform: uppercase;
+position: absolute;
+font-family: sans-serif;    
+
+bottom: 20px;
+right: 50px;
+
+}
